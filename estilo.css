@@ -1,0 +1,244 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+} 
+#inicio{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(50deg,#286090,#3c763d);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+/* CSS DO VIDEO */
+.background-wrap {
+    position: relative;
+    z-index: 1;
+    width: 142%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
+}
+
+#video-bg-elem {
+    position: relative;
+    top: 0;
+    left: -364px;
+    min-height: 100%;
+    min-width: 100%;
+}
+.content {
+    position: absolute;
+    width: 100%;
+    min-height: 169%;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.7);
+    top: 0vh;
+}
+.content h1 {
+    padding-left: 12vh;
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 15%;
+    margin-bottom: 10px;
+}
+.content p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #aaa;
+}
+/*FIM DO CSS DO VIDEO*/
+
+.btn-custom {
+    
+    padding: 1px 15px 3px 2px;
+    border-radius: 50px;
+}
+
+.btn-icon{
+    padding: 8px;
+    background: #ffffff;
+}
+
+.start{
+    padding:  2rem 4rem;
+    margin-top: 0vh;
+    position: relative;
+    bottom: 110vh;
+    left: 88vh;
+    z-index: 2000;
+    color: white;
+    background-color: #0b89af;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.start::before {
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    height: 1rem;
+    width: 100%;
+    left: 0.5rem;
+    background-color: #1f475a;
+    transform: skewX(45deg);
+    transition: all 0.5s;
+}
+
+.start::after {
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: 1rem;
+    height: 100%;
+    bottom: -0.5rem;
+    background-color: #0b89af;
+    transform: skewY(45deg);
+    transition: all 0.5s;
+}
+
+.start:active {
+    margin: 0.75rem 0rem 0rem 0.75rem;
+}
+
+.start:active::before {
+    bottom: -0.5rem;
+    left: 0.25rem;
+    height: 0.5rem;
+}
+
+.start:active::after {
+    right: -0.5rem;
+    width: 0.5rem;
+    bottom: 0.25rem;
+}
+
+#box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/pele.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/zico.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/romario.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+#box4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/bebeto.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+#box5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/Rivaldo.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+#box6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/Ronaldo.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+#box7{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/Ronaldinho-Gaúcho.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+#box8{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/kaka.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+#box9{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens/neymar.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+h1{
+    font-family: arial black;
+    font-size: 50px;
+    color:white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.descricao {
+    padding-top: 58vh;
+    width: 59vh;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #033661;
+    height: 35px;
+    color: #ffe200;
+}
+
+.rodape{
+    padding-left: 6%;
+    padding-top: 8px;
+}
+
+@media screen and (min-width: 480px) {
+  #inicio{
+    background-image: url(imagens/Ronaldo.jpg);
+  }
+
+  }
