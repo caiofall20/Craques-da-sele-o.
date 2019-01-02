@@ -33,7 +33,7 @@ body{
 .content {
     position: absolute;
     width: 100%;
-    min-height: 184%;
+    min-height: 169%;
     z-index: 1000;
     background-color: rgba(0,0,0,0.7);
     top: 0vh;
@@ -44,7 +44,9 @@ body{
     font-size: 65px;
     text-transform: uppercase;
     font-weight: 300;
-    color: #fff;
+    background: -webkit-linear-gradient(#0f7d08, #fce360);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding-top: 15%;
     margin-bottom: 10px;
 }
@@ -52,7 +54,9 @@ body{
     text-align: center;
     font-size: 20px;
     letter-spacing: 3px;
-    color: #aaa;
+    background: -webkit-linear-gradient(#0f7d08, #fce360);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /*FIM DO CSS DO VIDEO*/
 
@@ -228,7 +232,7 @@ h1{
 footer{
     background-color: #333;
     height: 35px;
-    color: #ffe200;
+    color: #fff;
 }
 
 .rodape{
