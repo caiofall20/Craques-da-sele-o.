@@ -197,7 +197,23 @@ a.animated-button.thar-three:before {
 }
 
 /* Final do Botão Começar */
-
+/* Box transparente */
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 507px;
+    height: 300px;
+  }
+  
+  div.transbox p,h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  /* Final do box transparente */
 /* Jogadores */
 #box1{
     height: 100vh;
@@ -288,7 +304,7 @@ a.animated-button.thar-three:before {
 h1{
     font-family: arial black;
     font-size: 50px;
-    color:white;
+    color:black;
     margin: 0px;
     text-align: center;
     display: table-cell;
@@ -366,7 +382,7 @@ a.animated-button.thar-three {
 }
 
 #box7{
-   
+    background-position-x: -42px;
 }
 
 #box8{
@@ -374,12 +390,12 @@ a.animated-button.thar-three {
 }
 
 #box9{
-    background-position-x: -230px;
+    background-position-x: -290px;
 }
 
 
   .rodape{
-
+    padding-right: 50px;
   }
 
   }
