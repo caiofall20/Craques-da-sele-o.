@@ -206,6 +206,8 @@ div.transbox {
     filter: alpha(opacity=60); /* For IE8 and earlier */
     width: 507px;
     height: 300px;
+    position: relative;
+    top: 100px;
   }
   
   div.transbox p,h1 {
@@ -252,7 +254,7 @@ div.transbox {
 }
 
 #box5{
-    height: 100vh;
+    height: 100vh!important;
     width: 100%;
     background-image: url(imagens/Rivaldo.jpg);
     background-size: cover;
@@ -391,6 +393,20 @@ a.animated-button.thar-three {
 
 #box9{
     background-position-x: -290px;
+}
+
+h1{
+    font-size: 30px; 
+}
+
+p {
+    font-size: 10px;
+}
+
+
+div.transbox{
+    width: 250px;
+    height: 266px;
 }
 
 
