@@ -253,7 +253,7 @@ div.transbox {
     object-fit: cover;
 }
 
-#box5{
+#box10{
     height: 100vh!important;
     width: 100%;
     background-image: url(imagens/Rivaldo.jpg);
@@ -350,7 +350,7 @@ footer{
 
   .content h1 {
     font-size: 53px;
-    padding-left: 72px;
+    padding-left: 44px;
     width: 1px;
 }
 
@@ -407,11 +407,14 @@ p {
 div.transbox{
     width: 250px;
     height: 266px;
+    position: relative;
+    top: 165px;
 }
 
 
   .rodape{
-    padding-right: 50px;
+    padding-top: 5px;
+    padding-right: 80px;
   }
 
   }
