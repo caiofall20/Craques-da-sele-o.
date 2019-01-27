@@ -1,5 +1,6 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 
 body{
     overflow-x: hidden;
@@ -36,7 +37,7 @@ body{
 .content {
     position: absolute;
     width: 100%;
-    min-height: 169%;
+    min-height: 189%;
     z-index: 1000;
     background-color: rgba(0,0,0,0.7);
     top: 0vh;
@@ -44,7 +45,7 @@ body{
 .content h1 {
     padding-left: 12vh;
     text-align: center;
-    font-size: 65px;
+    font-size: 100px;
     text-transform: uppercase;
     font-weight: 300;
     background: -webkit-linear-gradient(#0f7d08, #fce360);
@@ -52,14 +53,16 @@ body{
     -webkit-text-fill-color: transparent;
     padding-top: 15%;
     margin-bottom: 10px;
+    font-family: 'Bangers', cursive;
 }
 .content p {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 3px;
     background: -webkit-linear-gradient(#0f7d08, #fce360);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Bangers', cursive;
 }
 /*FIM DO CSS DO VIDEO*/
 
@@ -167,10 +170,11 @@ a.animated-button.thar-three {
     cursor: pointer;
     display: block;
     position: relative;
-    bottom: 706px;
+    bottom: 900px;
     border: 2px solid #F7CA18;
     z-index: 10001;
-	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    
 }
 a.animated-button.thar-three:hover {
 	color: #000 !important;
@@ -349,13 +353,14 @@ footer{
   }
 
   .content h1 {
-    font-size: 53px;
-    padding-left: 44px;
+    font-size: 64px;
+    padding-left: 92px;
     width: 1px;
+
 }
 
 .content p {
-   font-size: 18px;
+   font-size: 14px;
 }
 
 a.animated-button.thar-three {
@@ -417,4 +422,63 @@ div.transbox{
     padding-right: 80px;
   }
 
+  }
+
+  @media (max-width: 736px) {
+    .content h1 {
+        padding-left: 300px;
+        font-size: 40px;
+        padding-top: 27px;
+    
+    }
+    
+    .content p {
+        width: 97%;
+        bottom: 200px;
+    }
+
+    a.animated-button.thar-three {
+        width: 20%;
+        bottom: 200px;
+    }
+  }
+
+  @media (max-width: 500px) {
+      
+  .content h1 {
+    font-size: 64px;
+    padding-left: 92px;
+    width: 1px;
+
+}
+
+.content p {
+   font-size: 14px;
+}
+
+a.animated-button.thar-three {
+    width: 40%;
+    bottom: 400px;
+}
+  }
+
+  @media (max-width: 1024px) {
+    .content h1 {
+       
+    
+    }
+    .content {
+        min-height: 177%;
+
+    }
+    
+    .content p {
+
+    }
+    
+    a.animated-button.thar-three {
+        position: relative;
+        bottom: 960px;
+        right: 120px;
+    }
   }
