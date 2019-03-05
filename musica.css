@@ -1,0 +1,42 @@
+.music-box {
+ 
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all .3s; }
+  .music-box.playing {
+   }
+  .music-box audio {
+    display: none; }
+  .music-box .btn {
+    position: fixed;
+    right: 12vh;
+    bottom: 26vh;
+    padding: 20px;
+    margin: 100px auto 50px;
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px 0px;
+    transition: all .3s; }
+    .music-box .btn .fa {
+      font-size: 40px;
+      color: #fff; }
+    .music-box .btn.play {
+      background: #F7CA18; }
+    .music-box .btn.pause {
+      background: #286090;
+      transform: rotate(90deg); }
+      .music-box .btn.pause .fa {
+        transform: rotate(-90deg); }
+
+/*# sourceMappingURL=musica.css.map */
+
+@media (max-width: 768px) {
+  .music-box .btn{
+    visibility: hidden;
+  }
+}
+

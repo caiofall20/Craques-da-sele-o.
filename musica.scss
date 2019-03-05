@@ -1,0 +1,41 @@
+$play:#008636;
+$pause:#AD0A00;
+
+.music-box{
+  background:#FF8636;
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  transition:all .3s;
+  &.playing{
+    background:#36ff3f;
+  }
+  audio{
+    display:none;
+  }
+  .btn{
+    padding:20px;
+    margin:100px auto 50px;
+    display:block;
+    cursor:pointer;
+    border:none;
+    border-radius:10px 0px;
+    transition:all .3s;
+    .fa{
+      font-size:40px;
+      color:#fff;
+    }
+    &.play{
+      background:$play;
+    }
+    &.pause{
+      background:$pause;
+      transform:rotate(90deg);
+      .fa{
+        transform:rotate(-90deg);
+      }
+    }
+  }
+}

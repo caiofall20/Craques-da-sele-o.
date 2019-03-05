@@ -15,7 +15,6 @@ body{
     display: table;
     background-attachment: fixed;
 }
-
 /* CSS DO VIDEO */
 .background-wrap {
     position: relative;
@@ -65,7 +64,6 @@ body{
     font-family: 'Bangers', cursive;
 }
 /*FIM DO CSS DO VIDEO*/
-
 .btn-custom {
     
     padding: 1px 15px 3px 2px;
@@ -83,13 +81,17 @@ body{
  }
  
  label { 
-   -webkit-appearance: push-button;
-   -moz-appearance: button; 
-   display: inline-block;
-   cursor: pointer;
-   padding: 5px;
-   color: #F7CA18;
-   background: url(imagens/play-button.svg)
+    -webkit-appearance: push-button;
+    -moz-appearance: button;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    color: #F7CA18;
+    background: url(imagens/play-button.svg);
+    position: fixed;
+    right: 13vh;
+    top: 80vh;
+    z-index: 200;
  }
  
  /* CSS padrão da div */
@@ -464,12 +466,7 @@ a.animated-button.thar-three {
 
   @media (max-width: 1024px) {
     .content h1 {
-       
-    
-    }
-    .content {
-        min-height: 177%;
-
+        
     }
     
     .content p {
@@ -480,5 +477,45 @@ a.animated-button.thar-three {
         position: relative;
         bottom: 960px;
         right: 120px;
+    }
+  }
+
+  @media (min-width: 1519px) {
+      .content{
+        min-height: 173%;
+      }
+  }
+
+  @media (min-width: 700px) and (orientation: landscape) {
+      h1{
+        font-size: 25px;
+      }
+
+    div.transbox{
+        position: relative;
+        top: 30px;
+        height: 266px;
+    }
+
+    #box1{
+        background-position-x: initial;
+    }
+    #box2{
+        background-position-x: initial;
+    }
+    #box3{
+        background-position-x: initial;
+    }
+    #box4{
+        background-position-x: initial;
+    }
+    #box7{
+        background-position-x: initial;
+    }
+    #box8{
+        background-position-x: initial;
+    }
+    #box9{
+        background-position-x: initial;
     }
   }

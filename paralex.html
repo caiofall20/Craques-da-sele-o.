@@ -14,6 +14,8 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="musica.css">
     <link rel="stylesheet" href="menu.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/scroll.js"></script>
@@ -70,22 +72,18 @@
         <p>A maior fábrica de talentos do mundo</p>
       </div>
       <audio id="demo" src="Copa de 82 - Voa Canarinho.mp3"></audio>
-      <label for="toggle-1">
-        Opções
-        <img src="imagens/play-button.svg" alt="">
-      </label>
+    
       <input type="checkbox" id="toggle-1">
-      <div class="botoes">
-        <button class="btn btn-primary btn-custom" onclick="document.getElementById('demo').play()"><span class="glyphicon glyphicon-play img-circle text-primary btn-icon"
-            aria-hidden="true"></span> Play</button>
-        <button class="btn btn-primary btn-custom" onclick="document.getElementById('demo').pause()"><span class="glyphicon glyphicon-pause img-circle text-primary btn-icon"
-            aria-hidden="true"></span> Pause</button>
-        <button class="btn btn-primary btn-custom" onclick="document.getElementById('demo').volume+=0.1"><span class="glyphicon glyphicon-plus-sign img-circle text-primary btn-icon"
-            aria-hidden="true"></span> Volume</button>
-        <button class="btn btn-primary btn-custom" onclick="document.getElementById('demo').volume-=0.1"><span class="glyphicon glyphicon-minus-sign img-circle text-primary btn-icon"
-            aria-hidden="true"></span>Volume</button>
+
+      <div class="music-box">
+        <button  class="btn btn-play-music play"><i class="fa fa-play"></i></button>
+        <br>
+        <audio id="audio" controls="controls" autostart="0" autostart="false">
+          <source src="Copa de 82 - Voa Canarinho.mp3" type="audio/mp3" />
+        </audio>
       </div>
-      <a onclick="document.getElementById('demo').play()" class="btn btn-sm animated-button thar-three" href="#box1">Começar</a>
+      
+      <a onclick="" class="btn btn-sm animated-button thar-three scroll" href="#box1">Começar</a>
     </div>
 
   </section>
