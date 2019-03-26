@@ -1,3 +1,7 @@
+ onLoad=hidden()
+function hidden(){document.body.style.overflow='hidden';}
+
+
 var theToggle = document.getElementById('toggle');
 
 // based on Todd Motto functions
