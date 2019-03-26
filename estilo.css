@@ -1,6 +1,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
 
 body{
     overflow-x: hidden;
@@ -65,7 +66,6 @@ body{
 }
 /*FIM DO CSS DO VIDEO*/
 .btn-custom {
-    
     padding: 1px 15px 3px 2px;
     border-radius: 50px;
 }
@@ -76,9 +76,7 @@ body{
 }
 
 /* Checkbox Hack */
-#toggle-1 {
-    display:none;
- }
+#toggle-1 {display:none;}
  
  label { 
     -webkit-appearance: push-button;
@@ -221,6 +219,11 @@ div.transbox {
     font-weight: bold;
     color: #000000;
   }
+
+  .apelidos{
+    font-family: 'Patua One', cursive;
+    padding-left: 12%;
+}
   /* Final do box transparente */
 /* Jogadores */
 #box1{
@@ -343,72 +346,46 @@ footer{
 
 @media (max-width: 768px) {
 
-    #video-bg-elem{
-        display: none !important;
-    }
-  #inicio{
-    background-image: url(imagens/Ronaldo.jpg)!important; 
-  }
+    #video-bg-elem{display: none !important;}
 
-  .content{
-    min-height: 100%;
-  }
+    #inicio{background-image: url(imagens/Ronaldo.jpg)!important;}
 
-  .content h1 {
+    .content{min-height: 100%;}
+
+    .content h1 {
     font-size: 64px;
     padding-left: 92px;
     width: 1px;
+                }
 
-}
-
-.content p {
-   font-size: 14px;
-}
+.content p {font-size: 14px;}
 
 a.animated-button.thar-three {
     width: 40%;
     bottom: 400px;
 }
 
-#box1{
-    background-position-x: -141px;
+#box1{background-position-x: -141px;}
+
+#box2{background-position-x: -507px;}
+
+#box3{background-position-x: -355px;}
+
+#box4{background-position-x: -230px;}
+
+#box5{background-position-x: -142px;}
+
+#box7{background-position-x: -42px;}
+
+#box8{background-position-x: -230px;}
+
+#box9{background-position-x: -290px;}
+
+.apelidos{
+    font-size: 30px;
 }
 
-#box2{
-    background-position-x: -507px;
-}
-
-#box3{
-    background-position-x: -355px;
-}
-
-#box4{
-    background-position-x: -230px;
-}
-
-#box5{
-    background-position-x: -142px;
-}
-
-#box7{
-    background-position-x: -42px;
-}
-
-#box8{
-    background-position-x: -230px;
-}
-
-#box9{
-    background-position-x: -290px;
-}
-
-h1{
-    font-size: 30px; 
-}
-
-p {
-    font-size: 10px;
-}
+p { font-size: 10px;}
 
 
 div.transbox{
