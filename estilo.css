@@ -204,7 +204,6 @@ a.animated-button.thar-three:before {
 /* Box transparente */
 div.transbox {
     margin: 30px;
-    background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
@@ -212,17 +211,20 @@ div.transbox {
     height: 300px;
     position: relative;
     top: 100px;
+    background-color: black;
+    border-radius: 10px;
   }
   
   div.transbox p,h1 {
     margin: 5%;
     font-weight: bold;
-    color: #000000;
+    color: #fff;
   }
 
   .apelidos{
     font-family: 'Patua One', cursive;
     padding-left: 12%;
+    color: rgb(231, 245, 31);
 }
   /* Final do box transparente */
 /* Jogadores */

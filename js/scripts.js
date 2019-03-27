@@ -1,6 +1,10 @@
 // Essa função é para travar a barra de rolagem(scroll) ao carregar a página.
-// onLoad = hidden()
- // function hidden() { document.body.style.overflow = 'hidden'; }
+  // window.onLoad = hidden()
+  //window.onload = irParaInicio()
+  //location.reload = irParaInicio()
+  //function irParaInicio() { window.location.href = ""}
+  //function irParaInicio(){window.location.href = window.location.href=window.location.href;} 
+ 
 
 // Essa função é para destravar a barra de rolagem(scroll) ao carregar a página.
 function LiberarBotao() {
